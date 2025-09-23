@@ -13,7 +13,6 @@ public class HangForwardCommand extends CommandBase {
 
         addRequirements(hang);
     }
-
     @Override
     public void initialize() {
         hang.setPower(power);
